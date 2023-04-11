@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img alt="Projeto" src="https://github.com/Vinicius-Barbosa-Santos/react_to_do_list/blob/main/to_do_list.png">
+  <img alt="Projeto" src="https://github.com/Vinicius-Barbosa-Santos/react_to_do_list/blob/main/image.png">
 </p>
 
 <br>
