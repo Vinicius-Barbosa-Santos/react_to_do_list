@@ -25,7 +25,7 @@ O To-do-List é um app que foi constrúido para estudo, o objetivo do projeto er
 - Clone o repositório
 - Instale as dependências com `npm`
 - Inicie o servidor com `npm start`
-- Rode `npx json-server -p 3500 -w data/db.json` no terminal
+- Rode `npx json-server -p 3500 -w data/db.json` em uma outra aba no terminal
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
