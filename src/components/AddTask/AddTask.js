@@ -13,13 +13,6 @@ export const AddTask = ({ handleAddTask, newitem, setNewItem }) => {
         setNewItem('')
     }
 
-    const handleKeyUp = (e) => {
-        if (e.code === 'Enter' && newitem !== '') {
-            handleAddTask(newitem);
-            setNewItem('');
-        }
-    }
-
     return (
         <C.AddTask>
             <C.AddTaskArea>
@@ -31,7 +24,6 @@ export const AddTask = ({ handleAddTask, newitem, setNewItem }) => {
                         ref={inputRef}
                         value={newitem}
                         onChange={(e) => setNewItem(e.target.value)}
-                        onKeyUp={handleKeyUp}
                     />
                 </form>
             </C.AddTaskArea>
